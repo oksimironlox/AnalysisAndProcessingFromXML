@@ -10,6 +10,15 @@ namespace AnalysisAndProcessingFromXML
     {
         static void Main(string[] args)
         {
+            string pathToFile = getPathToFile();
+        }
+
+        private static string getPathToFile()
+        {
+            string heading = "Введите путь к файлу:\n";
+            Console.WriteLine(heading);
+            string pathToFile = Console.ReadLine();
+            return pathToFile;
         }
     }
 }
