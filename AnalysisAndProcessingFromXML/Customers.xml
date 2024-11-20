@@ -1,28 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <root>
-	<Customer name="Ivan Ivanov">
-		<Age>21</Age>
-		<FundsInTheAccounts>250000</FundsInTheAccounts>
-		<AvailabilityOfLoans>False</AvailabilityOfLoans>
-	</Customer>
-	<Customer name="Petr Petrov">
-		<Age>45</Age>
-		<FundsInTheAccounts>1250000</FundsInTheAccounts>
-		<AvailabilityOfLoans>True</AvailabilityOfLoans>
-	</Customer>
-	<Customer name="Vasily Sidorov">
-		<Age>22</Age>
-		<FundsInTheAccounts>30000</FundsInTheAccounts>
-		<AvailabilityOfLoans>True</AvailabilityOfLoans>
-	</Customer>
-	<Customer name="Denis Denisov">
-		<Age>73</Age>
-		<FundsInTheAccounts>12000</FundsInTheAccounts>
-		<AvailabilityOfLoans>False</AvailabilityOfLoans>
-	</Customer>
-	<Customer name="Irina Ivanova">
-		<Age>20</Age>
-		<FundsInTheAccounts>70000</FundsInTheAccounts>
-		<AvailabilityOfLoans>True</AvailabilityOfLoans>
-	</Customer>
+	<Customer name="Ivan Ivanov" age="21" fundsInTheAccounts="250000" availabilityOfLoans="false"/>
+	<Customer name="Petr Petrov" age="45" fundsInTheAccounts="1250000" availabilityOfLoans="true"/>
+	<Customer name="Vasily Sidorov" age="22" fundsInTheAccounts="30000" availabilityOfLoans="true"/>
+	<Customer name="Denis Denisov" age="73" fundsInTheAccounts="12000" availabilityOfLoans="false"/>
+	<Customer name="Irina Ivanova" age="20" fundsInTheAccounts="70000" availabilityOfLoans="true"/>
 </root>

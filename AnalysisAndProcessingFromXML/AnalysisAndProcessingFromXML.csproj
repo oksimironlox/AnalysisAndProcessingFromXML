@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Menu\ConsoleHelper.cs" />
+    <Compile Include="Menu\HelperMenu.cs" />
+    <Compile Include="Menu\Menu.cs" />
+    <Compile Include="Menu\MenuItem.cs" />
+    <Compile Include="Menu\MainMenu.cs" />
+    <Compile Include="ProcessingXML\Customer.cs" />
+    <Compile Include="ProcessingXML\OperationsXML.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AnalysisAndProcessingFromXML.ProcessingXML;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,7 @@ namespace AnalysisAndProcessingFromXML
         static void Main(string[] args)
         {
             string pathToFile = getPathToFile();
+            OperationsXML.ReadingXML(pathToFile);
         }
 
         private static string getPathToFile()
